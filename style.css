@@ -1,0 +1,43 @@
+textarea{
+    min-width: 60vw;
+    min-height: 10vw;
+    font-size: 20px;
+    background-color: rgb(38, 59, 78);
+    color: aliceblue;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    padding: 15px;    
+    box-shadow: 5px 5px 15px rgb(8, 8, 8);
+
+}
+body{
+    margin: 40px auto;
+    text-align: center;
+    background-color: rgb(169, 190, 190);
+}
+
+.keyboard-line{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    max-width: 907px;
+}
+.key{
+    background-color: rgb(38, 59, 78);
+    padding: 17px;
+    margin: 0 0 10px 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(8, 8, 8);
+    color: aliceblue;
+    min-width: 12px;
+}
+.key.active{
+    background-color: rgb(76, 0, 255);
+    box-shadow: 3px 3px 6px rgb(8, 8, 8);
+}
+.key:hover{
+    cursor: pointer;
+}
