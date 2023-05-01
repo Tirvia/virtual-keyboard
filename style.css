@@ -1,0 +1,16 @@
+textarea{
+    min-width: 60vw;
+    min-height: 10vw;
+    font-size: 20px;
+    background-color: rgb(38, 59, 78);
+    color: aliceblue;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 15px;    
+    box-shadow: 5px 5px 15px rgb(8, 8, 8);
+}
+body{
+    margin: 40px auto;
+    text-align: center;
+    background-color: rgb(169, 190, 190);
+}
