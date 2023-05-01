@@ -1,5 +1,5 @@
 document.body.onload = addElement;
-  function addElement() {
+function addElement() {
     var newDiv = document.createElement("textarea");
     first_div = document.getElementById("none");
     document.body.insertBefore(newDiv, first_div);
@@ -138,6 +138,12 @@ document.body.onload = addElement;
     key62.innerHTML = "&#8658;";
     let key63 = document.getElementById("63");
     key63.innerHTML = "Ctrl";
-}
 
+    let keys = document.querySelectorAll('.key')
+    for(let i=0; i<=63; i++){
+        keys[i].addEventListener('click', function(){
+            keys[i].classList.add('active');
 
+        })
+    };
+};
