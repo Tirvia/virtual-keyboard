@@ -4,13 +4,32 @@ textarea{
     font-size: 20px;
     background-color: rgb(38, 59, 78);
     color: aliceblue;
-    margin: 0 auto;
+    margin: 0 auto 20px;
     border-radius: 10px;
     padding: 15px;    
     box-shadow: 5px 5px 15px rgb(8, 8, 8);
+
 }
 body{
     margin: 40px auto;
     text-align: center;
     background-color: rgb(169, 190, 190);
+}
+
+.keyboard-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.key{
+    background-color: rgb(38, 59, 78);
+    padding: 17px;
+    margin: 0 0 10px 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(8, 8, 8);
+    color: aliceblue;
+}
+.key.active{
+    background-color: rgb(76, 0, 255);
+    box-shadow: 3px 3px 6px rgb(8, 8, 8);
 }
