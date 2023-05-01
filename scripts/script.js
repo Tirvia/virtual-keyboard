@@ -7,7 +7,7 @@ document.body.onload = addElement;
     var keyboardLineFirst = document.createElement("div");
     keyboardLineFirst.className = "keyboard-line";
     document.body.append(keyboardLineFirst);  
-    for (let i = 0; i<15; i++){
+    for (let i = 0; i<=14; i++){
         var key = document.createElement("div");
         key.className = "key";
         keyboardLineFirst.prepend(key);
@@ -16,7 +16,7 @@ document.body.onload = addElement;
     var keyboardLineSecond = document.createElement("div");
     keyboardLineSecond.className = "keyboard-line";
     document.body.append(keyboardLineSecond);    
-    for (let i = 0; i<16; i++){
+    for (let i = 15; i<=31; i++){
         var key = document.createElement("div");
         key.className = "key";
         keyboardLineSecond.prepend(key);
